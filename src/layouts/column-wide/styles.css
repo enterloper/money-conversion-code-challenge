@@ -1,0 +1,9 @@
+.column-wide {
+
+}
+
+.column-wide-title > div:nth-child(n + 2) {
+  background: peru;
+  height: 6.25rem;
+  border: 1px dashed black;
+}
