@@ -1,0 +1,36 @@
+@import '../../styles/app-wide-styles';
+
+%layout-spacing {
+  padding: $sm $md;
+  border: 1px solid black;
+}
+
+%column-style {
+  height: 6.25rem;
+  margin: $md $lg;
+  @include border(1px, black);
+}
+
+.layout-title {
+  text-align: center;
+  padding: $md 0;
+  > h1 {
+    display: inline;
+    padding: $md;
+  }
+}
+
+.column-wide {
+  @extend %layout-spacing;
+  div {
+    background: peru;
+    @extend %column-style;
+  }
+  &-title {
+    @extend %layout-spacing;
+    div:nth-child(n + 2) {
+      background: peru;
+      @extend %column-style;
+    }
+  }
+}

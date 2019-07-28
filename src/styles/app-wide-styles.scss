@@ -1,0 +1,12 @@
+/******* spacing variables ********/
+$xl: 3rem;
+$lg: 2rem;
+$md: 1rem;
+$sm: .5rem;
+
+
+/******* mixins ********/
+// border-mixin
+@mixin border($size, $color) {
+  border: $size solid $color;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 import ColumnWide from '../../layouts/column-wide';
 
 function CurrencyConverter() {
   return (
     <div className="app">
-      <ColumnWide title=''>
+      <ColumnWide title='Currency Converter'>
         <div>test</div>
         <div>test</div>
         <div>test</div>

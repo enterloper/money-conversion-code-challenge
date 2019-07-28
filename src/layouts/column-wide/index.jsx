@@ -1,16 +1,14 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 
 const Header = ({ title }) => (
-  <div>
+  <div className='layout-title'>
     <h1 id='header'>{title}</h1>
   </div>
 );
 
 const Index = props => {
-  console.log('THE PROPS:', props);
   const { children, title } = props;
-
   const getClassName = title => {
     const defaultName = 'column-wide';
     return Boolean(title) ? `${defaultName}-title` : defaultName;

@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import CurrencyConverter from './components/currency-converter'
-import './normalize.css';
+import './styles/normalize.css';
 //Currency Converter
 
 //Create a currency converter that converts a user’s selected base currency and outputs the equivalent money value of the exchange currency using the current day’s rate.
