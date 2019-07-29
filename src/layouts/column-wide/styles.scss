@@ -28,7 +28,7 @@
   }
   &-title {
     @extend %layout-spacing;
-    div:nth-child(n + 2) {
+    > div:nth-child(n + 2) {
       background: peru;
       @extend %column-style;
     }

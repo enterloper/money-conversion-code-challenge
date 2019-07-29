@@ -1,0 +1,4 @@
+// todo adjust to make it not USD by default
+// https://api.exchangeratesapi.io/latest?base=USD
+export const exchangeRatesURL = 'api.exchangeratesapi.io/latest';
+export const currencyList = 'https://gist.githubusercontent.com/mddenton/062fa4caf150bdf845994fc7a3533f74/raw/27beff3509eff0d2690e593336179d4ccda530c2/Common-Currency.json';

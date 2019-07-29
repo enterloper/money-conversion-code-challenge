@@ -1,0 +1,12 @@
+@import '../../styles/app-wide-styles';
+
+.row-in-column {
+  display: flex;
+  > h1 {
+    margin: auto $md;
+  }
+}
+
+.row-input-wrapper {
+  height: 100%;
+}
